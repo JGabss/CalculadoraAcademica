@@ -31,7 +31,7 @@ bottom.addEventListener("click", () => {
             }) 
         } else {
 
-            let final = (50 - (mean * 6)) / 4
+            let final = (mean * 6 - 50) / 4
             swal.fire({
                 icon: 'warning',
                 title: `Ainda há esperanças, ${document.getElementById("nome").value}, você irá fazer final, precisa de: ${ final }`,
